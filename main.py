@@ -1,7 +1,6 @@
 import discord
 from discord.ext import commands
 import requests
-import keep_alive
 import os
 import asyncio
 import time
@@ -299,5 +298,4 @@ async def rules(ctx):
   await ctx.send(embed=embed)
 
 
-keep_alive.index()
-client.run(os.environ["token"])
+client.run("NzE3ODU1ODA5OTQ1NDY4OTQ4.XtgZgA._CgaKRuWLLYT4SRDUGkrxineYR0")
